@@ -3,10 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-section {
-    padding: 60px;
-    background-image: url("../images/hero-bg.jpg");
-}
 body {
     /* more on this crazy alphanumerical value in a minute */
     color: #39a6b2;
@@ -58,4 +54,8 @@ footer div {
 }
 footer a {
     color: #024e76;
+}
+section {
+    padding: 60px;
+    background-image: url("../images/hero-bg.jpg");
 }
