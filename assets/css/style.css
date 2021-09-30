@@ -64,3 +64,10 @@ section {
     height: 600px;
 }
 /* Hero Style End */
+/* Hero Form Start */
+.hero-form {
+    background-color: #fce138;
+    color: #024e76;
+    padding: 40px;
+    width: 100px;
+}
