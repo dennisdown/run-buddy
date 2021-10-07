@@ -12,3 +12,5 @@ https://dennisdown.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Dennis Down
+
+### ©️2019 Run Buddy, Inc
