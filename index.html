@@ -35,7 +35,7 @@
             </nav>
         </header>
 
-        <!-- hero/jumbotron-->
+        <!-- Hero Section-->
         <section class="hero">
             <cta class="hero-cta">
                 <h2>Start Building Habits.</h2>
@@ -44,7 +44,6 @@
             <div class="hero-form">
                 <h3>Get Started Today</h3>
                 <p>Fill out this form and one of our trainers will schedule a consult</p>
-                <!--Add for element-->
                 <form>
                     <label for="name">Enter full name:</label>
                     <input type="text" placeholder="Your Name" name="name" id="name" class="form-input"/>
@@ -75,7 +74,8 @@
             </div>
         </section>
 
-        <!--"what we do" section-->
+        <!--"What We Do" section-->
+
         <section id="what-we-do" class="intro">
             <div class="flex-row">
                 <h2 class="section-title primary-border">What We Do</h2>
@@ -87,7 +87,8 @@
 
         </section>
 
-        <!-- "what you do" section-->
+        <!-- "What You Do" section-->
+
         <section id="what-you-do" class="steps">
             <div class="flex-row">
                 <h2 class="section-title secondary-border">What You Do</h2>
@@ -152,45 +153,54 @@
                     </div>
                 </div>        
             </div>
+        </section>
+            
+        <!-- "Meet the Trainers" Section -->
 
-        <!-- "meet the trainers" section-->
-        <section id="your-trainers" class="trainers">
+        <section id="your-trainers">
             <div class="flex-row">
                 <h2 class="section-title primary-border">Meet The Trainers</h2>
-            </div>    
-        <!-- First Trainer -->        
+            </div>   
+
+        <div class="trainers">    
+        <!-- First Trainer -->
             <article class="trainer">
                 <img src="./assets/images/trainer-1.jpg" alt="Arron Stephensin his workout clothes, ready to pump iron" >
-              <div class="trainer-bio text-left">
-                <h3>Arron Stephens</h3>
-                <h4>Speed / Strength</h4>
+              <div class="trainer-bio">
+                <h3 class="trainer-name">Arron Stephens</h3>
+                <h4 class="trainer-role">Speed / Strength</h4>
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore culpa illo rerum vero quos eveniet nobis voluptas eum quo ipsa reprehenderit animi, earum voluptates recusandae nihil natus iste, omnis totam?
                 </p>
               </div>    
             </article>
-        <!-- Second Trainer -->    
-        <article class="trainer">
-          <div class="trainer-bio text-right">
-            <h3>Joanna Gill</h3>
-            <h4>Endurance</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore culpa illo rerum vero quos eveniet nobis voluptas eum quo ipsa reprehenderit animi, earum voluptates recusandae nihil natus iste, omnis totam?
-            </p>
-          </div> 
-          <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" >   
-        </article>
+
+        <!-- Second Trainer --> 
+
+            <article class="trainer">          
+            <img src="./assets/images/trainer-2.jpg" alt="Joanna Gill cooling off after a workout" >   
+            <div class="trainer-bio">
+                <h3 class="trainer-name">Joanna Gill</h3>
+                <h4 class="trainer-role">Endurance</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore culpa illo rerum vero quos eveniet nobis voluptas eum quo ipsa reprehenderit animi, earum voluptates recusandae nihil natus iste, omnis totam?
+                </p>
+            </div> 
+            </article>
+
         <!-- Third Trainer -->
-        <article class="trainer">
-            <img src="./assets/images/trainer-3.jpg" alt="Harry Smith waering a headband and lifting comically smalll pink weights" >
-          <div class="trainer-bio text-left">
-            <h3>Harry "The Headband" Smith</h3>
-            <h4>Strength</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore culpa illo rerum vero quos eveniet nobis voluptas eum quo ipsa reprehenderit animi, earum voluptates recusandae nihil natus iste, omnis totam?
-            </p>
-          </div>    
-        </article>
+
+            <article class="trainer">
+                <img src="./assets/images/trainer-3.jpg" alt="Harry Smith waering a headband and lifting comically smalll pink weights" >
+            <div class="trainer-bio">
+                <h3 class="trainer-name">Harry "The Headband" Smith</h3>
+                <h4 class="trainer-role">Strength</h4>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore culpa illo rerum vero quos eveniet nobis voluptas eum quo ipsa reprehenderit animi, earum voluptates recusandae nihil natus iste, omnis totam?
+                </p>
+            </div>    
+            </article>
+        </div>    
         </section>
 
-        <!-- "reach out" section-->
+        <!-- "Reach Out" Section -->
         <section id="reach-out" class="contact">
             <h2 class="section-title secondary-border">Reach Out</h2>
             <div class="contact-info">
